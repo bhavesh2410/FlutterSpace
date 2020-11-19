@@ -25,7 +25,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  camera: ^0.5.2+1
+  camera: ^0.5.8+11
 
   tflite: ^1.0.2
 # For information on the generic Dart part of this file, see the

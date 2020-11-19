@@ -5,9 +5,10 @@ import 'package:flutter/material.dart';
 
 import 'home.dart';
 
-List<CameraDescription> cameras;
+List<CameraDescription> cameras = [];
 
 Future<Null> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   try {
     cameras = await availableCameras();
   } on CameraException catch (e) {
